@@ -1,4 +1,4 @@
-# Currency-Calculator
+# Currency-Converter
 ![animation](images/Animation.gif)
 
 # Demo
