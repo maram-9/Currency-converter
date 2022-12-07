@@ -1,0 +1,69 @@
+.html {
+    box-sizing: border-box;
+}
+
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+
+.body {
+        max-width: 700px;
+        margin: auto;
+        padding: 100px;
+        background-image: url("../images/tlo2.jpg");
+        background-repeat: space;
+        background-size: cover;
+    }
+
+    .form {
+        padding: 40px 0px;
+      }
+    
+    .form__labelText {
+        width: 100%;
+        max-width: 200px;
+        display: inline-block;
+        margin-right: 5px;
+        border-radius: 5px;
+    }
+
+.form__field {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 10px;
+    max-width: 350px;
+    width: 100%;
+    border-radius: 5px;
+    font-weight: 900;
+    border-color: teal;
+    font-weight: 400;
+}
+
+.form__fieldset {
+    border-radius: 10px;
+    border: 1px solid teal;
+    font-weight: 600;
+}
+
+.form__field--textArea {
+    resize: vertical;
+    min-height: 100px;
+}
+.form__field:required {
+    border-color: teal;
+}
+.form__legend {
+    padding: 10px;
+    border-radius: 5px;
+    background-color: hsl(180, 100%, 35%);
+    color: white
+}
+
+.form__button {
+    width: 100%;
+    border: none;
+    background-color: teal;
+    color: white;
+    padding: 1%;
+    border-radius: 5px;
+}
