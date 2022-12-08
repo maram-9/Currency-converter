@@ -25,8 +25,8 @@ const calculateResult = (amount, currencyValue) => {
   return amount / currencyValue;
 };
 
-const onFormSubmit = (Event) => {
-  Event.preventDefault();
+const onFormSubmit = (event) => {
+  event.preventDefault();
 
 const amountElement = document.querySelector(".js-amountPln");
 const currencyElement = document.querySelector(".js-currency");
@@ -47,7 +47,6 @@ const init = () => {
   formElement.addEventListener("submit", onFormSubmit);
 
   welcome();
-
 };
 
   init();
